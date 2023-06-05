@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.time.ZonedDateTime;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://notes-b6ol.onrender.com")
 public class NoteController {
     @Autowired
     private NoteService noteService;

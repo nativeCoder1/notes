@@ -14,7 +14,7 @@ import java.time.ZonedDateTime;
 
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://notes-b6ol.onrender.com")
 public class UserController {
     @Autowired
     private UserService userService;
